@@ -1,0 +1,21 @@
+# Comandos
+#   django-admin startproject config .
+#   python manage.py startapp app_name
+#   python manage.py migrate
+#   python manage.py runserver
+#   python manage.py test
+
+# Criar Apps
+#   python manage.py startapp app_name
+#   Adicionar 'app_name' a config/settings.INSTALLED_APPS
+#   Criar os models em app_name/models.py
+#   python manage.py makemigrations app_name
+#   python manage.py migrate
+
+# Criando Admin
+#   python manage.py createsuperuser
+#   Registrar o model em app_name/admin.py:
+#       from models import ModelName
+#       admin.site.register(ModelName)
+
+# Adicionando Views
