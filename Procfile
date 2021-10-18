@@ -1,1 +1,1 @@
-web: gunicorn taskscheduler-app.wsgi
+web: gunicorn config.wsgi
