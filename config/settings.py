@@ -82,7 +82,7 @@ MIDDLEWARE = [
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
     'http://localhost:8000',
-    'https://schedule-frontend-six.vercel.app'
+    'https://schedule-frontend-one.vercel.app'
 )
 
 ROOT_URLCONF = 'config.urls'
